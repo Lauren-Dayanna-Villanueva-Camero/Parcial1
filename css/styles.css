@@ -171,3 +171,70 @@ button {
 button:hover {
   opacity: 0.9;
 }
+
+
+/* Misión y visión*/
+/* Card contenedor */
+.card-custom {
+  display: flex;
+  align-items: stretch;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 700px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Sección izquierda (imagen o espacio) */
+.card-image {
+  background: #5a5f67; /* gris oscuro */
+  color: #fff;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Sección derecha (texto) */
+.card-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.card-title {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Botones */
+.card-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-custom {
+  background: none;
+  border: 1px solid #007bff;
+  color: #007bff;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-custom:hover {
+  background: #007bff;
+  color: #fff;
+}
+
+
