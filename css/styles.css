@@ -1,0 +1,22 @@
+/* body*/
+/* Cartas noticias*/
+.noticias {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+  margin-top: 80px; 
+}
+
+.noticias .card {
+  width: 18rem; 
+}
+
+.card-header-custom {
+  background-color: #e0e0e0;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+}
